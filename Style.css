@@ -13,6 +13,10 @@
   --white: #fff;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Arial", sans-serif;
   background-color: var(--background);
@@ -21,63 +25,67 @@ body {
   color: var(--white);
 }
 
+p {
+  font-size: 1.5rem;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
   background-color: var(--primary);
-  padding: 20px;
+  padding: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 0.8rem;
 }
 
 .images {
   text-align: center;
-  margin-bottom: 20px;
-  padding: 10px;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .box1,
 .box2 {
   flex: 1;
   background-color: var(--secondary);
-  padding: 15px;
-  border-radius: 5px;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 .box2 {
-  max-width: 30%;
+  max-width: 52vh;
 }
 
 h1,
 h2,
 h3 {
   color: var(--text-realce);
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   /* 16px + (16/2)=8px = 16+8 = 24px*/
 }
 
 /* MEUS DADOS */
 .meus-dados {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
+  max-width: 60rem;
+  margin: 2rem auto;
+  padding: 2rem;
 }
 
 #formulario {
-  margin-top: 15px;
+  margin-top: 1.5rem;
 }
 
 fieldset {
-  border: 1px solid var(--input-border);
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 15px;
+  border: 0.1rem solid var(--input-border);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 legend {
@@ -88,21 +96,22 @@ legend {
 
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   font-weight: 700;
-  flex-basis: 100px;
+  flex-basis: 10rem;
+  font-size: 1.6rem;
 }
 
 input[type="text"],
 input[type="number"] {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid var(--input-border);
-  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid var(--input-border);
+  border-radius: 0.5rem;
   background-color: var(--input-background);
   color: var(--white);
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 input[type="text"]:focus,
@@ -114,19 +123,19 @@ input[type="number"]:focus {
 .form-group {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Botão Formulário */
 #form_btn {
   width: 100%;
-  padding: 10px;
-  font-size: 1em;
+  padding: 1rem;
+  font-size: 1.6rem;
   background-color: var(--button-background);
   color: var(--white);
   border: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
@@ -135,10 +144,14 @@ input[type="number"]:focus {
 }
 
 /* RESUMO */
+
+span {
+  font-size: 1.5rem;
+}
 .apply-discount {
-  border-top: 1px solid var(--input-border);
-  padding-top: 10px;
-  margin-top: 10px;
+  border-top: 0.1rem solid var(--input-border);
+  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 .apply-discount-header {
@@ -151,51 +164,51 @@ input[type="number"]:focus {
 
 .apply-discount-body {
   display: none;
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 .apply-discount-body input {
   width: 90%;
-  margin-right: 5px;
+  margin-right: 0.5rem;
 }
 
 .icons {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .icons i {
-  font-size: 20px;
+  font-size: 3.5vh;
 }
 
 .garantia_box {
   display: flex;
   flex-flow: column;
   align-items: center;
-  border-top: 1px solid var(--input-border);
-  border-bottom: 1px solid var(--input-border);
+  border-top: 0.1rem solid var(--input-border);
+  border-bottom: 0.1rem solid var(--input-border);
 }
 .safe {
   color: var(--safe);
 }
 
 .safe_image {
-  width: 300px;
+  width: 100%;
   border-radius: 10%;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 /* Botão de desconto */
 #discount-btn {
   background-color: var(--text-realce);
   color: var(--white);
-  padding: 10px 20px;
-  font-size: 1em;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 #discount-btn:hover {
@@ -205,7 +218,7 @@ input[type="number"]:focus {
 /* FOOTER */
 footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 footer a {
@@ -220,11 +233,4 @@ footer a:hover {
 footer p {
   color: var(--text);
 }
-/* h3 {
-  font-size: 1.2rem;
-} */
 
-/* PX - Valor da tela */
-/* REM -  unidade relativa - 1rem = 16px 1.5*/
-/* EM - uma unidade relativa, mas baseada no tamanho da fonte do elemento pai.
- elemento pai for 20px, então 1em = 20px. */

@@ -6,4 +6,4 @@ dado terá que alcançar determinado valor esperado.
 
 Também contamos com um aplicador de desconto, onde os cumpons são "DESCONTO10" "DESCONTO20" "DESCONTO50"
 
-Link do Site:https://lucaspereira1212.github.io/HashForm_Funcional/ 🛒
+Link do Site:https:https://lucaspereira1212.github.io/HashForm_Funcional/ 🛒
